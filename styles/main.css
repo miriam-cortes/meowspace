@@ -20,7 +20,6 @@ header h1 {
   padding: 1%;
   font-size: 2.5rem;
   float: left;
-  /*border: white 1px solid;*/
 }
 
 li {
@@ -28,7 +27,6 @@ li {
   margin: 2%;
   padding-right: 1%;
   display: inline;
-  /*border: white 1px solid;*/
 }
 li a {
   text-align: center;
@@ -39,7 +37,6 @@ li a {
 }
 ul {
   list-style-type: none;
-  /*border: white 1px solid;*/
 }
 
 /*************** MAIN SITE *********************/
@@ -120,34 +117,28 @@ footer {
   margin-bottom: 1%;
   border: white 1px solid;
   border-radius: 5px;
+  display: flex;
 }
 
 .copyright {
   float: left;
   width: 10%;
+  min-width: 70px;
   margin-left: 0.5%;
-  height: 95%;
+  height: 100%;
   padding: 0.5%;
-  border: white 1px solid;
   display: block;
 }
-
-/*footer:nth-child(1n+1).inline{
-  float:left;
-  display: flex;
-}*/
 
 #disclaimer {
   float:left;
   display: block;
-  /*margin-left: 12%;*/
-  padding: 1%;
   font: .5em;
-  border: white 1px solid;
-  /*width: 30%;*/
 }
 
 .footer-nav {
-  /*margin-left: 42%;*/
-  border: white 1px solid;
+  float: right;
+  margin-right: 2%;
+  display: inline;
+  min-width: 250px;
 }
