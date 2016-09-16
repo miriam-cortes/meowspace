@@ -1,144 +1,15 @@
-* {font-family: Arial;}
-a {color: white; text-decoration: none;}
-
-header{
-  /**** position: fixed; keeps the header at the top ****/
-  position: fixed;
-  width: 100%;
-  background-color: pink;
-  margin-top: 1%;
-  border: white 1px solid;
-  border-radius: 5px;
-  min-width: 775px;
-}
-
-header h1 {
-  width: 50%;
-  margin-left: 1%;
-  height: 95%;
-  min-width: 200px;
-  padding: 1%;
-  font-size: 2.5rem;
-  float: left;
-}
-
-li {
-  float: right;
-  margin: 2%;
-  padding-right: 1%;
-  display: inline;
-}
-li a {
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  border: white 1px solid;
-  border-radius: 5px;
-}
-ul {
-  list-style-type: none;
-}
-
-/*************** MAIN SITE *********************/
-.main-titles {
-  background-color: pink;
-  margin-top: 7%;
+.big-title {
+  font-size: 3rem;
+  font-stretch: expanded;
+  padding-top: 12%;
   padding-left: 2%;
   border: white 1px solid;
+
 }
-
-.main-titles h1 {
-  font-size: 2rem;
-  /*border: white 1px solid;*/
-}
-
-body {
-  margin: 0;
-  background-color: grey;
-  min-width: 775px;
-}
-/*.spacer {
-  height: 5%;
-  width: 100%;
-  border: white 1px solid;
-}*/
-
-main{padding-top: 5%;}
-
-.left-column {
-  margin-left: 2%;
-  padding-left: 1%;
-  padding-right: 1%;
-  background-color: lightgrey;
-  border: white 1px solid;
-  float: left;
-  display: block;
-  width: 65%;
-  min-width: 500px;
-  margin-top: 1px;
-}
-
-.right-column {
-  margin-top: 1px;
-  float: right;
-  display: block;
-  width: 25%;
-  display: inline-block;
-  background-color: pink;
-  border: white 2px solid;
-  margin-right: 2%;
-  /*padding-right: 1%;*/
-  min-width: 200px;
-}
-
-#top-cats{
+section {
   text-align: center;
 }
 
-#top-cat-name{
-  /*border: white 1px solid;*/
-  float: right;
-}
-
-#top-cat-name img:nth-child(2) {
-  float: left;
-  display: inline-block;
-  /*border: white 1px solid;*/
-}
-
-
-/*************** FOOTER *********************/
-footer {
-  color: white;
-  width: 100%;
-  min-width: 775px;
-  background-color: pink;
-  float: left;
-  margin-bottom: 1%;
+section:nth-child(2) {
   border: white 1px solid;
-  border-radius: 5px;
-  display: flex;
-}
-
-.copyright {
-  float: left;
-  width: 10%;
-  min-width: 70px;
-  margin-left: 0.5%;
-  height: 100%;
-  padding: 0.5%;
-  display: block;
-}
-
-#disclaimer {
-  float:left;
-  display: block;
-  font: .5em;
-}
-
-.footer-nav {
-  float: right;
-  margin-right: 2%;
-  display: inline;
-  min-width: 250px;
 }

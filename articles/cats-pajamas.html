@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
+<link href="../styles/reset.css" rel="resetstylesheet" />
+<link href="../styles/main.css" rel="stylesheet" />
+<link href="../styles/articles.css" rel="stylesheet" />
   <head>
-    <link href="styles/reset.css" rel="resetstylesheet" />
-    <!-- <link href="styles/articles.css" rel="stylesheet" /> -->
     <meta charset="UTF-8">
     <title>Meowspace</title>
   </head>
@@ -18,12 +19,18 @@
     </header>
 
     <section>
-      <h2> The Cat's Pajamas </h2>
-      <h3> By: <a href="../profiles/slyvester.html"> Slyvester </a></h3>
+      <!-- THIS IS THE PART TO STRETCH OUT -->
+      <div class="big-title">
+        <h2> The Cat's Pajamas </h2>
+        <h3> By: <a href="../profiles/slyvester.html"> Slyvester </a></h3>
+      </div>
+
+      <!-- CENTER THIS PART -->
       <p>Posted on <time datetime="2016-09-04T16:31:24+02:00"> September 4th 2016</time> by <a href="profiles/slyvester.html">Slyvester</a> - <a href="#comments">16 comments</a></p>
     </section>
 
     <main>
+
       <img src="http://placekitten.com/1000/300" alt="kitten">
       <p>
         Groom yourself 4 hours - checked, have your beauty sleep 18 hours - checked, be fabulous for the rest of the day - checked! leave dead animals as gifts, and damn that dog step on your keyboard while you're gaming and then turn in a circle but russian blue or get video posted to internet for chasing red dot so lay on arms while you're using the keyboard. Knock over christmas tree gnaw the corn cob kitty power! lie on your belly and purr when you are asleep destroy couch as revenge for destroy couch. Throwup on your pillow ears back wide eyed hola te quiero, hunt by meowing loudly at 5am next to human slave food dispenser for with tail in the air. Bleghbleghvomit my furball really tie the room together.
@@ -47,18 +54,19 @@
       </aside>
     </main>
 
-
-
-
     <footer>
-      <h4> &copy; 2016 </h4>
+      <div class="copyright">
+        <h4> &copy; 2016 </h4>
+      </div>
       <p id="disclaimer"> Meowspace is not responsible for, and expressly disclaims all liability for, damages of any kind arising out of use, reference to, or reliance on any information contained within the site. While the information contained within the site is periodically updated, no guarantee is given that the information provided in this Web site is correct, complete, and up-to-date. </p>
-      <nav>
-        <ul>
-          <li><a href="#about"> About </a></li>
-          <li><a href="#contact"> Contact </a> </li>
-        </ul>
-      </nav>
+      <div class="footer-nav">
+        <nav>
+          <ul>
+            <li><a href="#about"> About </a></li>
+            <li><a href="#contact"> Contact </a> </li>
+          </ul>
+        </nav>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
