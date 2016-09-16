@@ -98,14 +98,12 @@ main{padding-top: 5%;}
 #top-cat-name{
   /*border: white 1px solid;*/
   float: right;
-  margin 1px;
 }
 
 #top-cat-name img:nth-child(2) {
   float: left;
   display: inline-block;
-  border: white 1px solid;
-  border-radius: 50px;
+  /*border: white 1px solid;*/
 }
 
 
