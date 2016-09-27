@@ -1,15 +1,57 @@
+/***** TITLE PART *****/
 .big-title {
   font-size: 3rem;
   font-stretch: expanded;
-  padding-top: 12%;
+  margin-top: 12%;
   padding-left: 2%;
+  /*commenting this one out also makes weird stuff happen...?*/
   border: white 1px solid;
+  background-color: lightgrey;
 
 }
+
 section {
   text-align: center;
 }
-
+/*isn't this the p part of section? why would commenting this out change my margins??*/
 section:nth-child(2) {
   border: white 1px solid;
+}
+
+
+/***** ACTUAL ARTICLE PART *****/
+article {
+  border: white 1px solid;
+  margin: 0 15% 0 15%;
+  /*float:right;*/
+  min-width: 950px;
+}
+
+.actual-article {
+  padding: 0 2% 0 2%;
+}
+
+main{
+  padding-top: 2%;
+}
+
+/* LARGE FIRST IMAGE*/
+article :first-child {
+  /*border: white 1px solid;*/
+  width: 100%;
+}
+
+/*why tf won't this float up???? I had to make a random margin at top*/
+aside {
+  margin-left: 5%;
+  border: white 1px solid;
+  border-radius: 5px;
+  max-width: 125px;
+  float: left;
+  text-align: center;
+  margin-top: -77%;
+}
+/*resizes the share thumbnails*/
+a img{
+  width: 70%;
 }
